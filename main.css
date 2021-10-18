@@ -1,0 +1,260 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 135vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url('./img/page1background.png');
+    background-position: bottom;
+    background-size:cover;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    display:flex;
+}
+
+.navbar {
+    top: 0;
+    position: absolute;
+    left: 0px;
+    display:flex;
+    width: 100%;
+    justify-content:space-between;
+    padding: 30px;
+    color: mistyrose;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+
+
+}
+
+.header-content {
+    color: mistyrose;
+    text-align: center;
+    margin-bottom: 150px;
+}
+.header-content h1 {
+    font-size: 5vmin;
+}
+.header-content h2{
+    font-size: 3.5vmin;
+    margin-bottom: 20px;
+}
+
+
+.home {
+    padding: 10px 15px;
+    background:#fc036b;
+    border-radius:  30px;
+    color:mistyrose;
+    font-weight: bold;
+    
+}
+
+.home:hover {
+    background: grey;
+    color: cornsilk;
+    cursor: pointer;
+
+}
+
+
+.contact {
+    padding: 10px 15px;
+    background: #fc036b;
+    border-radius:30px;
+    color:mistyrose;
+    font-weight: bold;
+
+}
+
+.contact:hover {
+    background: grey;
+    color: cornsilk;
+    cursor: pointer;
+
+}
+    
+.about {
+    padding: 10px 15px;
+    background: #fc036b;
+    border-radius:30px;
+    color:mistyrose;
+    font-weight: bold;
+}
+
+.about:hover {
+    background: grey;
+    color: cornsilk;
+    cursor: pointer;
+}
+
+.copyright {
+    width: 100%;
+    height: 60px;
+    padding: 10px 20px;
+    margin: 0;
+    background:grey;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+img{
+    opacity: 100%;
+    height: 100vh;
+    width: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #fc036b;
+    color: mistyrose;
+    padding: 12px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  input[type=submit]:hover {
+    background-color: grey;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .column {
+    float: center;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+ } 
+
+ .info {
+
+    background-color: #fc036b;
+    color: mistyrose;
+    padding: 12px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    justify-content:center;
+ }
+.info:hover {
+    background: grey;
+    color: cornsilk;
+} 
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    margin-right: 220px;
+    padding: 0 8px;
+  }
+  
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container {
+    padding: 10px 30px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
